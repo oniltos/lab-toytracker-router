@@ -1,12 +1,5 @@
 import mongoose from "mongoose";
 
-/**
- * name: String, obrigatório
- * collectedDate: Date, obrigatorio
- * manufacturingDate: Date,
- * value: Number, default: 0 
- */
-
 const { Schema, model } = mongoose
 
 const toySchema = new Schema({
